@@ -14,6 +14,8 @@ Following arguments are supported:
 * -e integer, --end=integer --> Last value of range, standard: 100
 * -a, --additional --> Additional row at the end with same value of last row, standard: null
 * -o "string", --output="string" --> Output file, standard: null
+* -f integer, --float=integer --> Enables float input and output with set decimal numbers
+* -x, --text --> Enables text (string) mode
 
 #### Usage (from Linux-CLI)
 `$ python3 LUTify --tab=? --pref="???" --posf="???" --rows=? --begin=? --end=? --output="???"`
@@ -27,3 +29,4 @@ You need to make sure that python3 is installed.
 ## Changelog
 
 * Version 1.0: Added basic functionality and documentation
+* Version 1.1: Added Text and Float modes, modified rounding system to account for floats
